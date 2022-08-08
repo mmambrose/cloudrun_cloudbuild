@@ -17,3 +17,4 @@ func main() {
 	}
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":"+port, nil)
+}
